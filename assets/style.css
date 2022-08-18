@@ -1,0 +1,106 @@
+body{
+    font-family: 'Rubik',sans-serif;
+    margin: 0;
+}
+
+nav .active{
+    font-weight: bold;
+}
+
+.bg-color{
+    background-color: #cfcfcf;
+}
+
+img{
+    border-radius: 6px;
+}
+
+.artikel{
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+}
+
+form label{
+    font-weight: 700;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.icon-art{
+    margin-top: 30px;
+}
+
+.icon-art a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
+
+/* detail-project.css */
+.container-detail{
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.container-detail .detail{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0 50px 0;
+}
+
+.container-detail h2{
+    text-align: center;
+}
+
+.detail p{
+    text-align: justify;
+}
+
+.detail .head-detail{
+    display: flex;
+}
+
+.head-detail .img{
+    flex: 60%;
+}
+
+.head-detail .img img{
+    height: 300px;
+}
+
+.head-detail .tools{
+    flex: 40%;
+}
+
+.tools ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.tools ul li{
+    padding: 10px 0;
+}
+
+.tools p{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.tools span{
+    padding-left: 10px;
+}
+
+.tech .icon{
+    display: flex;
+}
+
+.icon .kiri{
+    flex: 30%;
+}
+
+.icon .kanan{
+    flex: 70%;
+}
